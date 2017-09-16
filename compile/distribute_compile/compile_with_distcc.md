@@ -1,4 +1,4 @@
-                                          # distcc use guide 
+# distcc use guide 
 ## install
   The first choose is to install by apt-get install. also be installed by source
 
@@ -18,8 +18,11 @@
   in ~/.bashrc file, add the following code.
 
   DISTCC_HOST="localhost 192.168.0.2 192.168.0.3 192.168.0.254"
+  
   DISTCC_VERBOSE=1
+  
   DISTCC_LOG="/home/ditcc.log"
+  
   export DISTCC_HOST PATH DISTCC_VERBOSE DISTCC_LOG
 
 ### use in real project
