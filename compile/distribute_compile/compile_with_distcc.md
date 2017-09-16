@@ -1,10 +1,10 @@
-                                          #distcc use guide 
-##install
+                                          # distcc use guide 
+## install
   The first choose is to install by apt-get install. also be installed by source
 
-##config
+## config
 
-##cconfig server
+## cconfig server
 
    in /etc/rc.local file. add the fllowing code.
 
@@ -13,7 +13,7 @@
    explain:24 mean mask first 3 segment addr. mea 255.255.255.0
            nobody is a use already exit in your linux system.
 
-###config client
+### config client
 
   in ~/.bashrc file, add the following code.
 
@@ -22,7 +22,7 @@
   DISTCC_LOG="/home/ditcc.log"
   export DISTCC_HOST PATH DISTCC_VERBOSE DISTCC_LOG
 
-###use in real project
+### use in real project
 
   CXX=/yourpath/ditcc/g++
   CC=/yourpath/ditcc/gcc
