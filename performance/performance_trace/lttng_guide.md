@@ -61,6 +61,8 @@ office net  http://lttng.org/
             tracepoint(mymodule2, tag2, "foo_tag_begin");
         }
    ```
+   
+   4. add link library. -llttng-ust
 
 ## profile in back
    new bashe
